@@ -1,0 +1,19 @@
+- name: English
+  percentage: 78
+  color: info
+
+- name: Hindi
+  percentage: 90
+  color: success
+
+- name: Santali
+  percentage: 98
+  color:
+
+- name: Bengali
+  percentage: 62
+  color: danger
+
+- name: Marathi
+  percentage: 52
+  color: info

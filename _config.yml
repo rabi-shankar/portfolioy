@@ -1,0 +1,55 @@
+# Site settings
+title: Machine Learning
+nickname: ML
+description: >- # this means to ignore newlines until "baseurl:"
+  Always code as if the guy who ends up maintaining your code
+  will be a violent psychopath who knows where you live.
+baseurl: "/MLEdgex"  # the subpath of your site, e.g. /MLEdgex :: ineed change in navbar.html include also 
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: '' #YoussefRaafatNasry/portfolYOU
+
+
+# Build settings
+markdown: kramdown
+# plugins:
+# - jekyll-feed
+
+
+# Author Info
+author:
+  name     : Rabi Shankar
+  image    : /assets/images/rabi.jpeg
+  email    : username@xyz.com
+  github   : username
+  twitter  : username
+  linkedin : username
+  facebook : username
+
+
+# Posts default Permalink
+permalink: articles/:title
+
+# Collections
+collections:
+  mathematics:
+    output: true
+    permalink: mathematics/:title
+
+
+# Default values for collections
+defaults:
+  - scope:
+      path: ""
+      type: "mathematics"
+    values:
+      layout: "mathematic"
+
+
+
+# Exclude from processing.
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock

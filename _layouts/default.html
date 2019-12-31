@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+
+{% include head.html %}
+
+<body class="d-flex flex-column h-100"  onload="networkStatus()" {% if page.url == '/remove' %} style="background-image:url({{'/assets/images/ml-bg.png' | relative_url }});background-attachment:fixed;background-repeat: no-repeat;background-size: cover;"{% else %} style="background: #f8f9fa;" {% endif %}">
+  <!--<a href="https://www.freepik.com/free-photos-vectors/technology">Technology vector created by vectorpouch - www.freepik.com</a>-->
+{% if page.url != '/' %}
+  {% include scrollindicator.html %}
+{% endif %}
+<main class="flex-shrink-0 container mt-5">
+    {% include navbar.html %}
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+  {% include scripts.html %}
+
+</body>
+
+</html>

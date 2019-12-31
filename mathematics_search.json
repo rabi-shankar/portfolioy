@@ -1,0 +1,14 @@
+---
+layout: null
+---
+[
+  {% for mathematic in site.mathematics %}
+    {
+      "title"    : "{{ mathematic.title | escape }}",
+      "category" : "{{ mathematic.category }}",
+      "tags"     : "{{ mathematic.tags | join: ', ' }}",
+      "url"      : "{{ mathematic.external_url | default: mathematic.url | relative_url }}",
+      "date"     : "{{ mathematic.date }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

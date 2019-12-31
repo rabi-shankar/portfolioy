@@ -1,0 +1,36 @@
+- name: C/C++
+  percentage: 80
+  color: danger
+
+- name: Java 8
+  percentage: 80
+  color: dark
+
+- name: Kotlin
+  percentage: 20
+  color: info
+
+- name: Python 3
+  percentage: 67
+  color:
+
+- name: HTML/CSS3
+  percentage: 70
+  color: dark
+
+- name: JavaScript
+  percentage: 30
+  color: dark
+
+- name: PHP
+  percentage: 48
+  color: 
+
+- name: MySQL
+  percentage: 80
+  color: dark
+
+- name: Bootstrap 3
+  percentage: 60
+  color: dark
+

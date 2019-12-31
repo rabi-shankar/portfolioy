@@ -1,0 +1,79 @@
+<!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!--fontAwesome-->
+<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+
+<!-- Card Animation jQuery -->
+<script src="{{ '/assets/js/card-animation.js' | relative_url }}"></script>
+
+<!-- Simple-Jekyll-Search CDN -->
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+        noResultsText: '<li class="list-group-item">No results found</li>',
+        json: {% case page.url %} {% when '/articles/' %} '{{ 'post_search.json' | relative_url }}' {% else %} '{{ 'mathematics_search.json' | relative_url }}' {% endcase %}
+      })
+</script>
+
+<!--MathJax-->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+
+
+<!--Bootstrap Popover-->
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+  });
+</script>
+
+<!--Bootstrap tooltip-->
+<script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+
+
+<!-- Online /offline status -->
+<script>
+    function networkStatus() {
+      var status = " "
+      setInterval(function(){ 
+        if(!navigator.onLine){
+          status = "<i class='fas fa-circle' style='color:red'></i> OFFLINE "
+        }else{
+          status = " "
+        }
+          document.getElementById("netstatus").innerHTML = status; }, 6000);
+    }
+  </script>
+  <!--ScrollBar Indicator -->
+  <script>
+      window.onscroll = function() {scrollbarFunction()};
+      
+      function scrollbarFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("scrollbar").style.width = scrolled + "%";
+      }
+  </script>

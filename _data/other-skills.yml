@@ -1,0 +1,15 @@
+- name: Android 
+  percentage: 60
+  color: info
+
+- name: MS Office 2016
+  percentage: 70
+  color: success
+
+- name: Adobe Photoshop CS6
+  percentage: 55
+  color: 
+
+- name: Machine learning
+  percentage: 28
+  color: danger

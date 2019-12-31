@@ -1,0 +1,33 @@
+---
+layout: page
+---
+
+{% include back-to-mathematics.html %}
+<h1><b>{{ page.title }}</b></h1>
+
+<p class="article-metadata text-muted">
+      <i class="fas fa-user-edit"></i> {{ page.date | date_to_long_string }}
+    <i class="far fa-clock"></i> <b>
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    less than 1 min read time
+  {% else %}
+    {{ words | divided_by:180 }} mins read time
+  {% endif %}
+  </b>
+  <br>
+  {% if page.tags != empty %}
+  <i class="fas fa-square-root-alt"></i> Concepts: 
+  {% for tag in page.tags %}
+      <span class="badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    
+      {% endfor %}
+  {% endif %}
+
+</p>
+
+{{ content }}
+
+{% include back-to-mathematics.html %}
+</div>
+

@@ -1,0 +1,42 @@
+---
+layout: page
+---
+
+
+{% include back-to-articles.html %}
+<h1><b>{{ page.title }}</b></h1>
+
+<p class="article-metadata text-muted">
+    <i class="fas fa-user-edit"></i> {{ page.date | date_to_long_string }}
+    
+    <i class="far fa-clock"></i> <b>
+  {% assign words = content | number_of_words %}
+  {% if words < 360 %}
+    less than 1 min read time
+  {% else %}
+    {{ words | divided_by:180 }} mins read time
+  {% endif %}
+  </b>
+
+  <br>
+
+  {% if page.tags != empty %}
+  
+  <i class="fas fa-tag"></i> Tags: 
+    
+  {% for tag in page.tags %}
+      <span class="badge badge-pill text-primary border border-primary">{{ tag }}</span>
+    
+      {% endfor %}
+  {% endif %}
+
+</p>
+
+{{ content }}
+
+<!--
+  <footer>
+  This Article is <b>open source</b>. Noticed a typo? Or something unclear? Improve it on.
+</footer>-->
+
+{% include back-to-articles.html %}
