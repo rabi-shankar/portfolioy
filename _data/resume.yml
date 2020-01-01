@@ -1,0 +1,134 @@
+name: Rabi shankar Mandi
+profile-pic: rabi.png
+degree: B.Tech. Computer Science & Engineering (2013-17)
+mobile: +91 6205 857105
+email: shankar.rabi24@gmail.com
+weblink: https://aboutrabi.weebly.com
+pdf: rabi-shankar's-resume.pdf
+objective: To work in an organization that gives me an opportunity to show my skills, abilities and enhance it with changing trends and environment to develop myself as a whole.
+
+
+qualifications:
+    - degree: B.Tech. Computer Science & Engineering (2017)
+      university: BPUT
+      institute: National Institute of Science and Technology, Berhampur
+      result: 64.5%
+
+    - degree: Intermediate (2012)
+      university: CBSE
+      institute: Jawahar Navodaya Vidyalaya, East Singhbhum
+      result: 59.8%
+
+    - degree: Matriculation (2010)
+      university: CBSE
+      institute: Jawahar Navodaya Vidyalaya, East Singhbhum
+      result: 72.0%
+
+projects:
+    - name: Portfolio website
+      member: 1
+      role: Frontend Designer
+      tools-technology: Photoshop , HTML, CSS, JS
+      description: Resume & Portfolio website
+      url: https://rshankarmandi.weebly.com
+
+    - name: CareYour Baby (android application)
+      member: 2
+      role: Developer
+      tools-technology: Photoshop, Android Studio, Arduino Uno, SIM808 GPS GSM Module, Firebase, PHP,PowerPoint
+      description: Android app + Small Hardware device help the parents to locate the Child. (My BTech Project)
+
+    - name: Beyond Night Sky (BNS Club Website)
+      member: 9
+      role: Web Handler & Resource Developer
+      tools-technology: Photoshop , HTML, CSS, JS, PowerPoint
+      description: Beyond Night Sky is a group of people who are passionate about astronomy
+      url: http://newbnsly.weebly.com/
+
+
+    - name: BPUTCal+ (android application)
+      member: 1
+      role: UI+UX designer & Developer
+      tools-technology: Photoshop, Android Studio, PowerPoint
+      description: BputCal+ help freshman in BPUT who are not acquainted with SGPA calculations. It currently supports SGPA calculation of all branches of BTech.
+      url: https://github.com/rabi-shankar/BputCal-
+
+    - name: Youngbytes website
+      member: 5
+      role: Web Developer/ Designer
+      tools-technology: Photoshop , HTML, CSS, JS, PowerPoint
+      description: Group of CSE students whose aim is to teach everyone about computer at a basic level and motivate.
+      url: http://youngbytes.weebly.com
+
+
+    - name: eKart (android application)
+      member: 2
+      role: UI+UX designer & Developer
+      tools-technology: Photoshop, Android Studio, Firebase, PowerPoint
+      description: The simple android app demonstrates the function of Shopping App
+      url: https://github.com/rabi-shankar/eKart
+
+    - name: Simple Contact (android application)
+      member: 1
+      role: UI+UX designer & Developer
+      tools-technology: Photoshop, Android Studio, PHP, PowerPoint, Fast2SMS API
+      description: Android app that can send an OTP to a list of contacts using online services Fast2SMS
+      url: https://rabi-shankar.github.io/SimpleContact/
+
+
+    - name: Resume website
+      member: 1
+      role: Web Developer/ Designer
+      tools-technology: Photoshop , HTML, CSS, JS,  Bootstrap 3, Jekyll, YAML, Liquid
+      description: Online Resume. simple & plane static website created in Jekyll and hosting on Github. Support print and download in PDF
+      url: https://rabi-shankar.github.io/resume/
+
+
+
+
+
+technical-skills:
+      - type: IT SKILL
+        skills :
+           - name : Language – C, Java 8, Python 3, <b>Kotlin</b>, C++, HTML, JavaScript, PHP, MySQL, CSS, Bootstrap 3, Jekyll, YAML, Liquid 
+           - name : Well versed with MS Office 2016
+           - name : Android <b>Front-end</b> and <b>Back-end</b> 
+           - name : Web developement <b>Front-end</b> and <b>Back-end</b> 
+           - name : Git version control 
+           - name : Graphics Designing
+      
+      - type: TOOLS
+        skills :
+           - name : Android Studio 
+           - name : Visual Studio code
+           - name : Adobe Photoshop CS6
+
+      - type: COMMUNICATION SKILL
+        skills :
+           - name : Have been proactive and focused as a student 
+           - name : Possess a flexible, learning and detail-oriented attitude
+
+      - type: LANGUAGE SKILL
+        skills:
+           - name : English, Hindi, Santali, Bengali & Marathi
+
+achievements:
+        - achieve: Embedded System and Embedded VLSI
+
+ 
+        
+hobbies:
+        - hobbie: Learning about Theoretical Astronomy & Cosmology (Curved Space-Time / Black Hole Science)        
+
+
+personal :
+        birth: 2nd Feb 1995
+        father: Balram Mandi
+        mother: Ranjana Mandi
+        nationality : Indian
+        address: Kalidaspur, Chakulia, East Singhbhum, 832301, JH, IN
+
+signature: 
+        sign: Rabi Shankar
+        date: 25 Dec 2019
+        place: Jamshedpur
