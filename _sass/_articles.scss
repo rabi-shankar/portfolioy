@@ -56,24 +56,7 @@
         }
     }
 
-    a:not(.btn):not([class^="carousel-"]):not([class^="list-"]) {
-        display: inline-block;
-        text-decoration: none;
-
-        &:hover { color: $primary; }
-
-        &::after {
-            content: '';
-            display: block;
-            height: .15em;
-            margin-top: -.15em;
-            width: 0;
-            background: $primary;
-            transition: width .35s;
-        }
-
-        &:hover::after { width: 100%; }
-    }
+    
 
     pre {
         background: $light;
