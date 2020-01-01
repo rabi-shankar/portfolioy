@@ -1,11 +1,21 @@
-<div class="col-lg">
-  <h2 class="mb-3">{{ include.title }}</h2>
-    {% for skill in include.source %}
-      <div class="skill">
-        <p>{{ skill.name }}</p>
-        <div class="skill-bar skill-bar-{{ skill.color }} skill-{{ skill.percentage }} wow animated slideInLeft" data-wow-delay="{{ forloop.index | divided_by: 20.0 }}">
-          <span>{{ skill.percentage }}%</span>
-        </div>
-      </div>
-    {% endfor %}
+<div class="section">
+  <p class="section-icon"><i class="fas fa-laptop"></i></i> Skills: </p>
+  <div class="section-boby">
+   
+  </div>
 </div>
+
+
+<ul class="fa-ul">
+  {% for t-skill in site.data.resume.technical-skills %}
+  <li> <span class="fa-li"><i class="fas fa-horse-head"></i></span> <b class="skill-name">{{ t-skill.type | upcase}}</b>
+    {% if t-skill.skills %}
+    <ul class="fa-ul">
+      {% for s-skill in t-skill.skills %}
+      <li><span class="fa-li"><i class="fab fa-cloudscale fa-pulse fa-xs"></i></span><p class="sub-namez">{{ s-skill.name }}</p></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li> 
+  {% endfor %}
+</ul>
