@@ -2,7 +2,7 @@
 layout: page
 title: <i class="fas fa-user-circle"></i>
 permalink: /about/
-weight: 5
+weight: 6
 ---
 
 
