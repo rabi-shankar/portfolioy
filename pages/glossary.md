@@ -2,7 +2,7 @@
 layout: page
 title: Glossary
 permalink: /glossary/
-weight: 3
+weight: 4
 ---
 
 # **Machine Learning glossary**
